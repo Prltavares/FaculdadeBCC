@@ -1,0 +1,74 @@
+import java.util.Scanner;
+
+public class Uni6Exe09 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        final int TOTAL_CLIENTES = 30;
+        int[] sexo = new int[TOTAL_CLIENTES];   
+        int[] nota = new int[TOTAL_CLIENTES];     
+        int[] idade = new int[TOTAL_CLIENTES];    
+
+        for (int i = 0; i < TOTAL_CLIENTES; i++) {
+            System.out.println("Cliente " + (i + 1) + ":");
+            
+            do {
+                System.out.print("Sexo (1 = feminino, 2 = masculino): ");
+                sexo[i] = scanner.nextInt();
+            } while (sexo[i] != 1 && sexo[i] != 2);
+
+            do {
+                System.out.print("Nota (0 a 10): ");
+                nota[i] = scanner.nextInt();
+            } while (nota[i] < 0 || nota[i] > 10);
+
+            System.out.print("Idade: ");
+            idade[i] = scanner.nextInt();
+            System.out.println();
+        }
+
+        double somaNotas = 0;
+        for (int i = 0; i < TOTAL_CLIENTES; i++) {
+            somaNotas += nota[i];
+        }
+        double mediaGeral = somaNotas / TOTAL_CLIENTES;
+
+        int totalHomens = 0;
+        int somaNotasHomens = 0;
+        for (int i = 0; i < TOTAL_CLIENTES; i++) {
+            if (sexo[i] == 2) {
+                somaNotasHomens += nota[i];
+                totalHomens++;
+            }
+        }
+        double mediaHomens = (totalHomens > 0) ? (double) somaNotasHomens / totalHomens : 0;
+
+        int idadeMaisJovem = Integer.MAX_VALUE;
+        int notaMaisJovem = -1;
+        for (int i = 0; i < TOTAL_CLIENTES; i++) {
+            if (sexo[i] == 1 && idade[i] < idadeMaisJovem) {
+                idadeMaisJovem = idade[i];
+                notaMaisJovem = nota[i];
+            }
+        }
+
+        int mulheres50MaisComNotaAlta = 0;
+        for (int i = 0; i < TOTAL_CLIENTES; i++) {
+            if (sexo[i] == 1 && idade[i] > 50 && nota[i] > mediaGeral) {
+                mulheres50MaisComNotaAlta++;
+            }
+        }
+
+         
+        System.out.printf("Nota média recebida pelo cinema: %.2f\n", mediaGeral);
+        System.out.printf("Nota média atribuída pelos homens: %.2f\n", mediaHomens);
+        if (notaMaisJovem != -1) {
+            System.out.println("Nota atribuída pela mulher mais jovem: " + notaMaisJovem);
+        } else {
+            System.out.println("Nenhuma mulher respondeu à pesquisa.");
+        }
+        System.out.println("Quantidade de mulheres com mais de 50 anos que deram nota superior à média: " + mulheres50MaisComNotaAlta);
+
+        scanner.close();
+    }
+}

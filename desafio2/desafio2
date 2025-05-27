@@ -1,0 +1,11 @@
+public class desafio2 {
+
+    int codigo;
+    String nome;
+    int quantidade;
+    double preço;
+    String categoria;
+
+    
+
+}
