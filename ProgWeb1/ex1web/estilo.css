@@ -1,0 +1,90 @@
+
+header {
+    width: 100%;
+    font-size: larger;
+    background-color: lightblue;
+}
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav li {
+    display: inline; 
+    margin-right: 15px; 
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black; 
+    padding: 15px; 
+    text-align: center;
+}
+
+
+
+
+
+form {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px; 
+}
+
+
+.campo {
+    margin-bottom: 15px;
+}
+
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#lista-comidas li:first-child {
+    font-size: 2em; 
+}
+
+#lista-comidas li:last-child {
+    font-size: 0.8em; 
+}
+
+.caixa-interativa {
+
+  transition: background-color 0.4s ease;
+  cursor: pointer;
+}
+
+.caixa-interativa:hover {
+  background-color: #05a61a; 
+}
+
+
+#tabela {
+    border-collapse: collapse;
+    width: 50%; 
+}
+
+#tabela td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+#tabela tr:nth-child(odd) {
+    background-color: silver;
+}
