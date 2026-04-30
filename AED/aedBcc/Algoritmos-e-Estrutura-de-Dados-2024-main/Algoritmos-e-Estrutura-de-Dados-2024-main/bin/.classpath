@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Aula01/Aula01/|Estrutura-de-Dados.2/Algoritmos_e_Estrutura_de_Dados/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="Aula01/Aula01"/>
+	<classpathentry kind="src" path="Estrutura-de-Dados.2/Algoritmos_e_Estrutura_de_Dados/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
