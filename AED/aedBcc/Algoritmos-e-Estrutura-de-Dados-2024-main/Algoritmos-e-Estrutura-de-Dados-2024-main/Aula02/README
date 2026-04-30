@@ -1,0 +1,15 @@
+Citar os quatro tipos de armazenamentos (Vector, ArrayList, LinkedList e HashMap). 
+1) Vector - A classe Vector do Java é uma estrutura de dados que implementa uma lista de objetos que cresce dinamicamente.
+A estrutura trabalha como um vetor/array, onde novos registros são realizados no final da lista e temos flexibilidade para manipular qualquer informação através do índice do vetor.
+Exemplo: Um histórico de mensagens em um chat, em que você deseja adicionar e acessar mensagens em qualquer posição.
+
+2)ArrayList - O ArrayList possui as mesmas características do Vector, porém sua estrutura foi melhorada, sendo mais performático que a classe Vector.
+Exemplo: Um array dinâmico de dados, como uma lista de produtos em um carrinho de compras.
+
+3)LinkedList - A estrutura do LinkedList garante mais segurança no encadeamento de dados. Segundo a documentação oficial, o LinkedList é mais performático que o ArrayList para alterar os registros, porém mais lento para realizar cadastros, seleções e exclusões.
+Exemplo: Um histórico de atendimentos em um sistema de fila, em que você deseja inserir e remover atendimentos em qualquer posição.
+
+4) HashMap - Um HashMap em Java é uma estrutura de dados que armazena pares de chave-valor, onde cada chave é única. 
+É uma implementação da interface Map na qual você pode armazenar objetos associados a uma chave correspondente.
+Exemplo: Um histórico de atendimentos em um sistema de fila, em que você deseja inserir e remover atendimentos em qualquer posição.
+

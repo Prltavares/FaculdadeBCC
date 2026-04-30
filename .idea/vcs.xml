@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AED/Fila" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AED/Lista06" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AED/Pilha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AED/aedBcc/FaculdadeBCC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AED/aedBcc/Jovem-Progamador-Senac" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Faculdadebcc" vcs="Git" />
+  </component>
+</project>
