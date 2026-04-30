@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abafd189-beea-4b99-b73a-65ab7eec9c58" name="Changes" comment="Updade">
+      <change afterPath="$PROJECT_DIR$/AED/Fila/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Fila/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Fila/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Fila/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Fila/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Fila/Fila.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/Lista06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/Lista07/ArvoreBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/Lista07/NoArvoreBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista06/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/Pilha.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/Pilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/no.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/pilhavetor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/testepilhalista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/testepilhavetor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Faculdadebcc/Faculdadebcc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Faculdadebcc/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AED/Lista06" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Prltavares&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Prltavares/FaculdadeBCC.git&quot;,
+    &quot;accountId&quot;: &quot;5fa6c741-3d15-457e-bff9-380e3e1ab0b2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3C8r3U577kLctd2WkmFkfDFNYdc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/P.Luna/Desktop/faculdadebcc",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Debugger_Data_Views_Java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abafd189-beea-4b99-b73a-65ab7eec9c58" name="Changes" comment="" />
+      <created>1775777840248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775777840248</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Updade">
+      <option name="closed" value="true" />
+      <created>1775778015193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775778015193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updade" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+
+Foi escolhida a estrutura de dados fila para este sistema de gerenciamento de tarefas, pois o conceito de utilização desta etrutura é a que mais se adequa aos requisitos propostos pelo exercício.
+
+Fácil adição e remoção de elementos: A fila é uma estrutura de dados que permite a inserção de elementos no final, o que se alinha perfeitamente com os requisitos de adicionar e remover tarefas do sistema de gerenciamento de tarefas.
+
+Eficiência na visualização da próxima tarefa: A fila permite acessar o primeiro elemento por meio do método peek(), o que nos permite visualizar a próxima tarefa de forma eficiente sem a necessidade de percorrer toda a lista de tarefas.
+
+Escalabilidade e desempenho: A implementação da fila em Java (LinkedList) possui um bom desempenho tanto para adição quanto para remoção de elementos, e é escalável o suficiente para lidar com um grande número de tarefas.
+Além disso, o acesso rápido ao próximo elemento torna a visualização das tarefas eficiente mesmo com um grande volume de dados.
+
+Desta forma, a escolha da estrutura de dados de fila atende aos requisitos do sistema de gerenciamento de tarefas de forma eficiente e escalável.
+
+
+
+

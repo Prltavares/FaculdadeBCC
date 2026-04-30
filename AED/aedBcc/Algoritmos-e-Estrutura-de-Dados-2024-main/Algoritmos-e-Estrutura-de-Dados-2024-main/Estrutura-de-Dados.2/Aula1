@@ -1,0 +1,46 @@
+# Estrutura de dados - Aula 1
+
+- Maneira que organiza os dados
+- Exemplos: vetor, arraylist, matriz, hashmap, árvore, etc
+
+# 21/05/2024
+
+## ESTRUTURA DE DADOS LINEARES
+
+### LISTA ESTÁTICA
+
+- Os dados estarão dentro de um vetor
+- Cada posição do vetor ocupa 4 bytes
+- Pode-se acessar os elementos de maneira randômica
+- Quando declaramos somente int v[], ele não é alocado na memória.
+- Quando ele é instanciado (v = new int[3]), ele começa a ser alocado na memória.
+- Quando trabalhamos com referência de memória, quando alteramos o valor de uma lista, por exemplo, o valor é alterado na memoria e consequentemente no código todo.
+
+Cálculo da posição dos elementos:
+
+P(indice) = Endereco inicial + (índice x tamanho do elemento)
+Exemplo: P(2) = 100 (2 x 4) = 108
+
+- Quando um vetor é instanciado sem valor, ele consome espaço na memória a partir do momento em que for instanciado;
+- Listas estáticas vão consumir espaço em memória mesmo com a exclusão de elementos
+- A retirada de um elemento requer reposicionamento dos elementos (se retirar o 1º elemento, demora muito mais para processar)
+- Quando esgotar a capacidade de armazenamento do vetor ocorre um pseudo redimensionamento, que cria uma nova instancia de vetor com o dobro de posições do 1º vetor e copia as informações do vetor 1 e coloca no vetor 2. O vetor 1 é excluido da memória.
+
+## CRIAÇÃO DE UMA LISTA
+
+- Criar um vetor com tamanho predefinido;
+- Os dados são adicionados no final do último elemento (tamanho incrementa em 1), utilizando o método inserir();
+- A lista é redimensionada no dobro de seu tamanho quando a quantidade de elementos preencher o vetor anterior;
+
+- buscar();
+- inserir(int valor);
+- excluir();
+- estaVazia();
+- retirar(int valor);
+
+- O buscar sempre retorna o primeiro elemento encontrado;
+- O retirar sempre retira o primeiro elemento encontrado e os demais são deslocados para a esquerda (a lista é realocada);
+- Não tem como deixar o valor nulo, apenas realocar um novo valor em cima do número a ser removido;
+
+- vetor.lenght é o espaço físico que o vetor está utilizando
+- tamanho é o espaço que o vetor pode possuir
