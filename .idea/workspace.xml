@@ -5,39 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abafd189-beea-4b99-b73a-65ab7eec9c58" name="Changes" comment="Updade">
-      <change afterPath="$PROJECT_DIR$/AED/Fila/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Fila/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Fila/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Fila/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Fila/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Fila/Fila.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/Lista06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/Lista07/ArvoreBinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/Lista07/NoArvoreBinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista06/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/Pilha.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/Pilha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/no.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/pilhavetor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/testepilhalista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Pilha/src/testepilhavetor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Faculdadebcc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Faculdadebcc/Faculdadebcc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Faculdadebcc/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lista07/ArvoreBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lista07/NoArvoreBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lista07/TestePL01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AED/Lista06/Lista07/ArvoreBinaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AED/Lista06/Lista07/NoArvoreBinaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AED/Lista06/Lista07/TestePL01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +19,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AED/Lista06" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -72,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/P.Luna/Desktop/faculdadebcc",
@@ -105,11 +80,39 @@
       <option name="project" value="LOCAL" />
       <updated>1775778015193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updade">
+      <option name="closed" value="true" />
+      <created>1777586460768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777586460768</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updade">
+      <option name="closed" value="true" />
+      <created>1777586485193</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777586485193</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updade">
+      <option name="closed" value="true" />
+      <created>1777586833154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777586833154</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updade" />
     <option name="LAST_COMMIT_MESSAGE" value="Updade" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
