@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Team Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>World Cup Team Tracker</h1>
+        <p>Follow your favorite national teams during the tournament.</p>
+    </header>
+
+    <main class="container">
+        <section class="section-block">
+            <div class="section-title">
+                <h2>My Teams</h2>
+                <span id="favorite-count">0 selected</span>
+            </div>
+
+            <div id="favorite-teams" class="team-grid"></div>
+            <p id="empty-message" class="empty-message">No teams followed yet. Choose a team below.</p>
+        </section>
+
+        <section class="section-block">
+            <div class="section-title">
+                <h2>All Teams</h2>
+            </div>
+
+            <div id="all-teams" class="team-grid"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

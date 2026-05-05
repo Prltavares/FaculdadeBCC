@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #172033;
+    background: #f4f7fb;
+}
+
+.page-header {
+    padding: 32px 20px;
+    text-align: center;
+    color: white;
+    background: #174ea6;
+}
+
+.page-header h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+}
+
+.page-header p {
+    margin: 0;
+    color: #dbe8ff;
+}
+
+.container {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    padding: 24px 16px 40px;
+}
+
+.section-block {
+    margin-bottom: 32px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+#favorite-count {
+    color: #53627a;
+    font-size: 0.95rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 150px;
+    padding: 18px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(23, 32, 51, 0.08);
+}
+
+.team-card.selected {
+    border-color: #174ea6;
+    background: #edf4ff;
+}
+
+.team-flag {
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.team-name {
+    flex: 1;
+    margin: 0;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    background: #174ea6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0f3f88;
+}
+
+button.remove-button {
+    background: #c43131;
+}
+
+button.remove-button:hover {
+    background: #9f2525;
+}
+
+.empty-message {
+    margin: 0;
+    padding: 16px;
+    border: 1px dashed #9aa8bd;
+    border-radius: 8px;
+    color: #53627a;
+    text-align: center;
+    background: white;
+}
+
+@media (max-width: 520px) {
+    .page-header {
+        padding: 24px 16px;
+    }
+
+    .page-header h1 {
+        font-size: 1.6rem;
+    }
+
+    .section-title {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
