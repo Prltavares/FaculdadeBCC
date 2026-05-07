@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abafd189-beea-4b99-b73a-65ab7eec9c58" name="Changes" comment="Updade">
+    <list default="true" id="abafd189-beea-4b99-b73a-65ab7eec9c58" name="Changes" comment="web app para ver times da copa do mundo e acompanhar">
+      <change afterPath="$PROJECT_DIR$/AED/Lista06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arvore/Arvore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arvore/NoArvore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arvore/testes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/faculdadebcc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/faculdadebcc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +23,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="519" />
+    <option name="cachedIndexableFilesCount" value="534" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -64,18 +69,38 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/P.Luna/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.15.0/node",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Debugger_Data_Views_Java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\P.Luna\Desktop\faculdadebcc" />
+      <recent name="C:\Users\P.Luna\Desktop\faculdadebcc\appworldcup26" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/appworldcup26/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -91,7 +116,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775777840248</updated>
-      <workItem from="1778018129786" duration="631000" />
+      <workItem from="1778018129786" duration="2748000" />
+      <workItem from="1778021283730" duration="985000" />
+      <workItem from="1778174811327" duration="300000" />
+      <workItem from="1778190262791" duration="2048000" />
     </task>
     <task id="LOCAL-00001" summary="Updade">
       <option name="closed" value="true" />
@@ -133,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777589079493</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updade">
+      <option name="closed" value="true" />
+      <created>1778018937236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778018937237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="web app para ver times da copa do mundo e acompanhar">
+      <option name="closed" value="true" />
+      <created>1778022257423</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778022257423</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updade" />
+    <MESSAGE value="web app para ver times da copa do mundo e acompanhar" />
+    <option name="LAST_COMMIT_MESSAGE" value="web app para ver times da copa do mundo e acompanhar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
