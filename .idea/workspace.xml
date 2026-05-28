@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abafd189-beea-4b99-b73a-65ab7eec9c58" name="Changes" comment="web app para ver times da copa do mundo e acompanhar">
-      <change afterPath="$PROJECT_DIR$/AED/Lista06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arvore/Arvore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arvore/NoArvore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arvore/testes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/faculdadebcc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/faculdadebcc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoBolha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoBolhaOtimizada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="534" />
+    <option name="cachedIndexableFilesCount" value="559" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -35,12 +35,12 @@
     &quot;assignee&quot;: &quot;Prltavares&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Prltavares/FaculdadeBCC.git&quot;,
-    &quot;accountId&quot;: &quot;5fa6c741-3d15-457e-bff9-380e3e1ab0b2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Prltavares/FaculdadeBCC.git",
+    "accountId": "193cc0fd-644a-4075-b888-9105a0c36509"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -53,34 +53,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/P.Luna/Desktop/faculdadebcc",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/P.Luna/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.15.0/node",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/P.Luna/Desktop/faculdadebcc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/P.Luna/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.15.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\P.Luna\Desktop\faculdadebcc\AED" />
       <recent name="C:\Users\P.Luna\Desktop\faculdadebcc" />
       <recent name="C:\Users\P.Luna\Desktop\faculdadebcc\appworldcup26" />
     </key>
@@ -119,7 +120,9 @@
       <workItem from="1778018129786" duration="2748000" />
       <workItem from="1778021283730" duration="985000" />
       <workItem from="1778174811327" duration="300000" />
-      <workItem from="1778190262791" duration="2048000" />
+      <workItem from="1778190262791" duration="2069000" />
+      <workItem from="1779400304482" duration="3532000" />
+      <workItem from="1780004402561" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="Updade">
       <option name="closed" value="true" />
@@ -177,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778022257423</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="web app para ver times da copa do mundo e acompanhar">
+      <option name="closed" value="true" />
+      <created>1778194833757</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778194833757</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
