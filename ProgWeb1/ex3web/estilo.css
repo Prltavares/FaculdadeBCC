@@ -1,0 +1,45 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Item 1.c: Cores para os resultados da comparação */
+.fundo-vermelho {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.fundo-verde {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.fundo-amarelo {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Item 3.a: Estilos da tabela para ficar visível */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Item 3.d: Estilo da lista de atividades */
+ul li {
+    cursor: pointer; /* Muda o mouse para uma mãozinha indicando que é clicável */
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #ddd;
+    width: 300px;
+}

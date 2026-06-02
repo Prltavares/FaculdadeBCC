@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tela 3</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h2>Exercício 3 - Elementos Dinâmicos</h2>
+
+    <p>Contador (setInterval): <strong id="meu-contador" style="color: red; font-size: 20px;">0</strong></p>
+    
+    <hr>
+
+    <table id="minha-tabela">
+        <tr>
+            <td>Linha 1 - Col 1</td> <td>Linha 1 - Col 2</td> <td>Linha 1 - Col 3</td>
+        </tr>
+        <tr>
+            <td>Linha 2 - Col 1</td> <td>Linha 2 - Col 2</td> <td>Linha 2 - Col 3</td>
+        </tr>
+        <tr>
+            <td>Linha 3 - Col 1</td> <td>Linha 3 - Col 2</td> <td>Linha 3 - Col 3</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <button onclick="adicionarLinhaTabela()">Criar nova linha na tabela</button>
+
+    <hr>
+
+    <h3>Minhas Atividades Favoritas</h3>
+    <p>Clique em um item da lista:</p>
+    <ul>
+        <li onclick="concluirAtividade(this)">Estudar programação em Java</li>
+        <li onclick="concluirAtividade(this)">Jogar videogame no PC e Nintendo Switch</li>
+        <li onclick="concluirAtividade(this)">Jogar partidas de futsal</li>
+        <li onclick="concluirAtividade(this)">Assistir aos jogos do Flamengo</li>
+        <li onclick="concluirAtividade(this)">Fazer brownies em casa</li>
+    </ul>
+
+</body>
+</html>
