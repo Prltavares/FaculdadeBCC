@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Lista11/README.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Lista11/README.md" />
+              <option name="updatedContent" value="Lista11 - Buscas (simples)&#10;=================================&#10;&#10;Este package contém implementações e um pequeno programa de demonstração&#10;para a lista L11 - Buscas (simples).&#10;&#10;Arquivos:&#10;- src/Lista11/BuscaSimples.java — Busca linear&#10;- src/Lista11/BuscaBinariaIterativa.java — Busca binária (iterativa)&#10;- src/Lista11/BuscaBinariaRecursiva.java — Busca binária (recursiva)&#10;- src/Lista11/Main.java — Programa demonstrativo&#10;&#10;Como compilar e executar (PowerShell):&#10;&#10;cd &quot;C:\Users\P.Luna\Desktop\faculdadebcc\AED\Lista11&quot;&#10;javac -d out -sourcepath src src\Lista11\*.java&#10;java -cp out Lista11.Main&#10;&#10;Observações:&#10;- A busca binária requer que o array esteja ordenado (ordenação crescente).&#10;- Este projeto usa apenas arrays de int para manter o código simples para fins de estudo.&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Lista11/src/Lista11/BuscaSimples.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Lista11/src/Lista11/BuscaSimples.java" />
+              <option name="updatedContent" value="package Lista11;&#10;&#10;/**&#10; * Busca linear (simples) em arrays de int.&#10; */&#10;public class BuscaSimples {&#10;&#10;    /**&#10;     * Procura a primeira ocorrência de chave em arr.&#10;     * @param arr array onde buscar&#10;     * @param chave valor a procurar&#10;     * @return índice da primeira ocorrência ou -1 se não encontrado&#10;     */&#10;    public static int buscaLinear(int[] arr, int chave) {&#10;        if (arr == null) return -1;&#10;        for (int i = 0; i &lt; arr.length; i++) {&#10;            if (arr[i] == chave) return i;&#10;        }&#10;        return -1;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

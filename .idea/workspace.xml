@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abafd189-beea-4b99-b73a-65ab7eec9c58" name="Changes" comment="web app para ver times da copa do mundo e acompanhar">
-      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoBolha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoBolhaOtimizada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoMergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AED/Lista10/OrdenacaoQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +18,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="559" />
+    <option name="cachedIndexableFilesCount" value="568" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -35,12 +30,12 @@
     &quot;assignee&quot;: &quot;Prltavares&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Prltavares/FaculdadeBCC.git",
-    "accountId": "193cc0fd-644a-4075-b888-9105a0c36509"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Prltavares/FaculdadeBCC.git&quot;,
+    &quot;accountId&quot;: &quot;193cc0fd-644a-4075-b888-9105a0c36509&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -123,6 +118,7 @@
       <workItem from="1778190262791" duration="2069000" />
       <workItem from="1779400304482" duration="3532000" />
       <workItem from="1780004402561" duration="1235000" />
+      <workItem from="1781201809360" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Updade">
       <option name="closed" value="true" />
